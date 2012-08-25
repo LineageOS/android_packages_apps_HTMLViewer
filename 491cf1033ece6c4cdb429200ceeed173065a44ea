@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWn//+kY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-25T18:23:34Z",
+      "side": 1,
+      "message": "Ik vind de AOSP versie beter",
+      "revId": "491cf1033ece6c4cdb429200ceeed173065a44ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
