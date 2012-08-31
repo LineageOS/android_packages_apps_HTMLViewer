@@ -34,6 +34,24 @@
       "revId": "491cf1033ece6c4cdb429200ceeed173065a44ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///Yg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-31T16:36:58Z",
+      "side": 1,
+      "message": "@Eddy: waarom heb jij dit wel goedgekeurd voor gingerbread?\n\nhttp://review.cyanogenmod.com/#/c/18464/",
+      "parentUuid": "AAAAXH///2o\u003d",
+      "revId": "491cf1033ece6c4cdb429200ceeed173065a44ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
