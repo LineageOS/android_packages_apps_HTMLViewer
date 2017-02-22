@@ -25,6 +25,8 @@ import android.Manifest;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
@@ -123,6 +125,26 @@ public class HTMLViewerActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         mWebView.destroy();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(Menu.NONE, Menu.FIRST, Menu.NONE, com.android.internal.R.string.ime_action_search)
+                .setIcon(R.drawable.ic_search)
+                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemId = item.getItemId();
+
+        if (item.getItemId() == Menu.FIRST) {
+            mWebView.showFindDialog(null, true);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     private class ChromeClient extends WebChromeClient {
