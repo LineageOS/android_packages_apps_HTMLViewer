@@ -16,4 +16,7 @@
 -->
 <resources>
   <!-- Title of the HTML Viewer activity. -->
+  <string name="app_label">Visor HTML</string>
+  <string name="cannot_open_link">Denguna aplicación pue abrir esti enllaz.</string>
+  <string name="turn_on_storage_permission">Habilita\'l permisu d\'almacenamientu nos permisos de l\'aplicación, por favor.</string>
 </resources>
