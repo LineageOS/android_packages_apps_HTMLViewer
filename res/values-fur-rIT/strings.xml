@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_label">Visor de HTML</string>
-    <string name="cannot_open_link">Nun hai nenguna aplicación que pueda abrir esti enllaz.</string>
-    <string name="turn_on_storage_permission">Activa\'l permisu d\'almacenamientu nos permisos de l\'aplicación.</string>
+    <string name="app_label">Visualizadôr HTML</string>
+    <string name="cannot_open_link">Nissune aplicazion e pues vierzi chest colegament.</string>
+    <string name="turn_on_storage_permission">Ative i permès di archivazion tai permès de aplicazion.</string>
 </resources>
